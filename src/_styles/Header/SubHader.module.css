@@ -1,0 +1,272 @@
+/* .sub_header {
+  padding: 1rem 0;
+  background-color: aquamarine;
+  
+}
+.sub_header .listAll {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.sub_header .listAll .listItem {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  gap: 23px;
+  justify-content: flex-end;
+}
+
+.sub_header .listAll .listItem{
+    overflow: hidden;
+}
+.sub_header .listAll .listItemOne{}
+ */
+
+/* MegaMenu.module.css */
+
+.navbar {
+  overflow: hidden;
+  /* background-color: #333; */
+  padding: 15px 0 10px;
+  box-shadow: 0px 11px 10.1px 0px rgba(218, 218, 218, 0.25);
+}
+.navbar .logo{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+}
+.navbar .listAll {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.navbar .listAll .listItem {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  gap: 23px;
+  justify-content: flex-end;
+}
+
+.dropdown .dropbtn {
+  float: left;
+  font-size: 16px;
+  /* color: white; */
+  text-align: center;
+  /* padding: 14px 10px; */
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: #000;
+  /* padding: 14px 16px; */
+  background-color: inherit;
+  font: inherit;
+  margin: 0;
+}
+.dropdown .BtnQuote {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 12px 16px;
+  margin: 0;
+  border-radius: 10px;
+  background: linear-gradient(91deg, #bb2121 11.94%, #de2123 104.55%);
+  box-shadow: 0px 4px 13.3px 0px rgba(96, 96, 96, 0.25);
+  display: flex;
+  justify-content: center;
+}
+.dropdown .dropLoginBtn{
+  color: #DE2123;
+  font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+
+
+.dropdown .dropbtn ::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #000;
+  transition: width .3s;
+}
+
+.dropdown .dropbtn :hover::after {
+  width: 100%;
+  /* //transition: width .3s; */
+}
+
+
+
+
+
+
+
+
+
+.dropdownContent {
+  display: none;
+  position: absolute;
+  top: 104px;
+  background-color: #fafafa;
+  width: 100%;
+  left: 0;
+  right: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 2rem !important;
+}
+
+.dropdownContent .header {
+  background: red;
+  padding: 16px;
+  color: #000;
+}
+
+.dropdown:hover .dropdownContent {
+  display: block;
+}
+
+.dropdownContent .subDropContent {
+}
+.dropdownContent .subDropContent ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+.dropdownContent .subDropContent ul li {
+  width: 100%;
+  text-align: justify;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.normals {
+  width: 100%;
+  text-align: justify;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  cursor: pointer;
+  color: #000;
+  text-align: left;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 14px 16px;
+}
+
+.dropdownContent .subDropContent ul li a img {
+  width: 15px;
+  height: 15px;
+}
+.active {
+  /* background: #ff5c5c; */
+  /* border-radius: 5px; */
+  background: #BB2121;
+  box-shadow: 0px 3px 10px  rgba(187, 33, 33, 0.69);
+  /* box-shadow: 0px 3px 51.9px 0px rgba(187, 33, 33, 0.69); */
+  width: 100%;
+  text-align: justify;
+  padding: 14px 16px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  cursor: pointer;
+  color: #fff;
+  text-align: left;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.dropdownContent .subDropContent ul li a:hover {
+  /* background: #ff5c5c; */
+  /* border-radius: 5px; */
+  background: #BB2121;
+  box-shadow: 0px 3px 10px  rgba(187, 33, 33, 0.69);
+  color: #fff;
+}
+.dropdownContent .subDropContent {
+  margin-bottom: 1rem;
+}
+.cardStyle {
+  /* background: red !important; */
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0px 0px 15.9px 0px rgba(120, 120, 120, 0.25);
+  padding: 18px 30px;
+}
+.cardStyle img {
+  width: 100px;
+}
+.CardBody {
+  padding: 0;
+}
+.CardBody .CardText {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #825d5d;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.CardBody .CardTitle{
+  font-size: 15px;
+    color: #000;
+    font-weight: 700;
+}
+.cardStyle  a{
+  color: #BB2121;
+  font-size: 12px;
+  font-weight: 500;
+}
+.CardBody p {
+  margin: 0;
+  color: #898989;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.dropdownContent .rightSecTab .viewAllbtn {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.dropdownContent .rightSecTab .viewAllbtn a {
+  border-radius: 10px;
+  border: 1px solid #ff1627;
+  background: rgba(217, 217, 217, 0);
+  color: rgba(255, 22, 39, 0.77);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 100px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,220 @@
+.sliderWrp{}
+.sliderWrp .row{align-items: center;}
+.sliderWrp img{
+  width: 495px;
+  height: 495px;
+margin-left: auto;
+}
+.sliderWrp .leftContent h6{
+    color: #2298DB;
+text-align: justify;
+font-size: 19px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 1rem;
+}
+.sliderWrp .leftContent h2{
+    color: #262626;
+/* text-align: justify; */
+/* font-family: Inter; */
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-bottom: 1rem;
+}
+.sliderWrp .leftContent p{
+    color: #787878;
+text-align: justify;
+/* font-family: Inter; */
+font-size: 18px;
+font-style: normal;
+font-weight: 535;
+line-height: normal;
+margin-bottom: 3rem;
+}
+.sliderWrp .leftContent button{
+    border-radius: 10px;
+background: #DE2123;
+color: #FFF;
+text-align: justify;
+/* font-family: Inter; */
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+border: none;
+padding:16px 15px;
+display: flex;
+align-items: center;
+gap: 10px;
+}
+/* .sliderWrp  img{
+    width: 495px;
+height: 495px;
+} */
+
+
+/* Slider Buttons */
+
+.slick-prev {
+    position: absolute;
+    top: -80px;
+    left: 820px;
+    /* background-color: #BB2121; */
+  }
+  .slick-prev:before {
+    content: "< \00a0 \00a0 Previous ";
+    font-family: sans-serif;
+  }
+  .slick-next:before {
+    content: "Next \00a0 \00a0 >";
+    font-family: sans-serif;
+  }
+  .slick-prev:before,
+  .slick-next:before {
+    font-size: 13px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #fff;
+    opacity: inherit;
+    padding: 12px;
+    width: 130px;
+    display: block;
+    transition: 0.5s;
+    color: #000;
+    /* border: 1px solid #bb2121; */
+    /* border-radius: 10px; */
+  }
+  .slick-prev:hover:before,
+  .slick-next:hover:before {
+    background-color: #bb2121;
+    color: #fff;
+  }
+  .slick-next {
+    position: absolute;
+    top: -81px;
+    right: 131px;
+  }
+  
+
+  /* SliderSection.module.css */
+
+.slick_dots.slick_thumb {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  gap: 10px;
+}
+
+.slick_dots.slick_thumb li {
+  width: 6px ;
+  height: 6px;
+  margin: 0 3px ;
+  border-radius: 999px ;
+  transition: all 0.5s ease-in-out ;
+  will-change: width ;
+  background-color: black ;
+}
+
+.slick_dots.slick_thumb li:active {
+  background-color: red ;
+  width: 24px ;
+}
+
+/* 
+
+.button__bar {
+    display: inline-block;
+    vertical-align: middle;
+    margin: auto;
+    padding: 0;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 40px;
+    width: 70px;
+    text-align: center;
+  }
+  
+  .button__bar li {
+    list-style: none;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 3px;
+    padding: 0;
+  }
+  
+  .button__bar li button {
+    border: none;
+    background: #a53692;
+    color: transparent;
+    cursor: pointer;
+    display: block;
+    height: 15px;
+    width: 15px;
+    border-radius: 7.5px;
+  }
+  
+  .button__bar li.slick-active button {
+    background-color: rgb(8, 255, 140);
+  }
+  
+  .button__bar li button:hover,
+  .button__bar li button:focus {
+    background: rgba(247, 34, 34, 0.8);
+    outline: 0;
+  }
+  
+  .slick-slide img {
+    border: 5px solid #fff;
+    display: block;
+    margin: auto;
+  } */
+  .button__bar {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+  }
+  
+  .button__bar li {
+    /* list-style: none;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 3px;
+    padding: 0; */
+    width: 13px;
+    height: 6px;
+    margin: 0 3px;
+    border-radius: 999px;
+    transition: all 0.5s ease-in-out;
+    will-change: width;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button__bar li button {
+    border: none;
+    background: red;
+    color: transparent;
+    cursor: pointer;
+    display: block;
+    height: 15px;
+    width: 15px;
+    border-radius: 7.5px;
+  }
+  
+  .button__bar li.slick-active button {
+    background-color: red;
+  width: 24px;
+  }
+  
+  /* .button__bar li button:hover,
+  .button__bar li button:focus {
+    background: rgba(247, 34, 34, 0.8);
+    outline: 0;
+  } */
+
+

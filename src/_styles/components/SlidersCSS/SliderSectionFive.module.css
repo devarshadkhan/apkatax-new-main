@@ -1,0 +1,14 @@
+.slideMainWrp{
+    padding: 2rem 0;
+}
+.slideMainWrp .Slidecard{
+    border-radius: 7px;
+background: #FFF;
+box-shadow: 0px 2px 13.2px 0px rgba(187, 187, 187, 0.60);
+padding: 20px 16px;
+}
+.slideMainWrp .Slidecard .card_Img img{
+    /* width: 100px;
+    height: 55px;
+    flex-shrink: 0; */
+}

@@ -1,0 +1,151 @@
+.footer {
+  padding: 5rem 0;
+  --tw-bg-opacity: 1;
+  background-color: rgb(49 66 89 / var(--tw-bg-opacity));
+}
+
+.footer .logoPanel .logoImg {
+  width: 130px;
+  height: 100%;
+}
+
+.footer .footrIcons {
+  padding: 2rem 0 0;
+}
+.footer .footrIcons h5 {
+  font-weight: 600;
+  font-size: 16px;
+  color: rgb(192, 203, 217);
+  margin-top: 32px;
+  margin-bottom: 14px;
+}
+.footer .footrIcons ul {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 0;
+}
+.footer .footrIcons ul li {
+}
+.footer .footrIcons ul li a {
+  color: rgb(22 120 251);
+}
+.footer .footrIcons ul li a img {
+  width: 24px;
+  height: 24px;
+}
+
+.footer .logoPanel .query {
+  padding: 1rem 0;
+}
+.footer .logoPanel .query h6 {
+  font-weight: 600;
+  font-size: 16px;
+  color: rgb(192, 203, 217);
+  margin-top: 32px;
+  margin-bottom: 14px;
+}
+.footer .logoPanel .query a {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(146, 159, 176);
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+.footer .footrCompany {
+  padding: 2rem 0;
+}
+.footer .footrCompany h5 {
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: rgb(192, 203, 217);
+}
+.footer .footrCompany ul {
+  padding: 0;
+  margin: 0;
+}
+.footer .footrCompany ul li {
+}
+.footer .footrCompany ul li a {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(146, 159, 176);
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.footer .headingFirst {
+}
+.footer .headingFirst h3 {
+  padding-bottom: 8px;
+  border-bottom: 0.5px solid rgb(155, 170, 189);
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: rgb(192, 203, 217);
+}
+
+.footer .Individuals {
+  padding: 2rem 0;
+}
+.footer .Individuals h5 {
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: rgb(192, 203, 217);
+}
+.footer .Individuals ul {
+  padding: 0;
+  margin: 0;
+}
+.footer .Individuals ul li {
+}
+.footer .Individuals ul li a {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(146, 159, 176);
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+/* second wrapper start */
+
+.footer .mutualFund {
+    padding: 2rem 0 1rem;
+}
+.footer .mutualFund .linkingcoldata {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+.footer .mutualFund h4 {
+  padding-bottom: 8px;
+  border-bottom: 0.5px solid rgb(155, 170, 189);
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: rgb(192, 203, 217);
+}
+
+.footer .mutualFund .colData {
+    /* margin-top: 1rem; */
+}
+.footer .mutualFund .colData a {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(237, 239, 242);
+  background: rgba(146, 159, 176, 0.3);
+  opacity: 0.6;
+  border: 0.5px solid rgb(192, 203, 217);
+  border-radius: 4px;
+  padding: 3px 12px;
+  width: auto;
+  cursor: pointer;
+}

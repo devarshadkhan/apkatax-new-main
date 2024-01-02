@@ -1,0 +1,64 @@
+.slideMainWrp {
+}
+.slideMainWrp .Slidecard {
+  /* border-radius: 23px 23px 0px 0px; */
+  border: 2px solid #000;
+  border-radius: 24px;
+
+  /* Or, apply border-radius to each corner separately */
+  /* border-radius: 23px 23px 0 0; */
+
+  background: #fff;
+  border-width: 2px;
+  border-style: solid;
+
+  /* Apply linear gradient as border-image */
+  /* border-image: linear-gradient(to top, #000000, #FF1627) 1; */
+  /* border-width: 3px;
+border-style: solid;
+border-image: 
+  linear-gradient(
+    to bottom, 
+    red, 
+    rgba(0, 0, 0, 0)
+  )  */
+  /* border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to top, #000000, #FF1627) 1; */
+}
+.slideMainWrp .Slidecard .card_Img img {
+  height: 196px;
+  border-top-left-radius: 19px;
+  border-top-right-radius: 19px;
+  object-fit: cover;
+  width: 100%;
+}
+.slideMainWrp .card_Text {
+  padding: 1rem;
+}
+.slideMainWrp .card_Text h6 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.slideMainWrp .card_Text h6 span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.slideMainWrp .card_Text a {
+    color: red;
+    font-weight: 600;
+
+}

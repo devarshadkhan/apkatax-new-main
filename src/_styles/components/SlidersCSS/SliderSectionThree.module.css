@@ -1,0 +1,27 @@
+.sliderWrp{}
+/* .sliderWrp .row{align-items: center;} */
+
+.sliderWrp .Slidecard{
+    border-radius: 1rem;
+    border: 0.09375rem solid #1a325d;
+    background: rgb(255, 62, 108);
+}
+.sliderWrp .card_Img img{
+    min-height: 16.25rem;
+    max-height: 16.25rem;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+    margin: auto;
+    border-radius: 1rem;
+}
+
+.sliderWrp .card_Text{
+    background: aliceblue;
+    width: 300px;
+    margin: 0 auto;
+    padding: 1rem 1rem 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}

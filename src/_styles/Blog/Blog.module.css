@@ -1,0 +1,121 @@
+.blog_wrp_main {
+  position: relative;
+}
+.blog_wrp_main .bgImg {
+}
+.blog_wrp_main .bgImg img {
+  width: 100%;
+  height: 190px;
+}
+
+.blog_wrp_main .row {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.blog_wrp_main .container {
+  /* height: 100%;
+  position: relative; */
+}
+.blog_wrp_main .bannerContent {
+  /* display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  padding: 2rem 0; */
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  padding: 1rem 0;
+  align-items: flex-start;
+}
+
+.blog_wrp_main .bannerContent h2 {
+  color: #fff;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  /* line-height: 55px; */
+  margin: 0px;
+}
+.blog_wrp_main .bannerContent p {
+  color: white;
+  font-size: 22px;
+  padding: 20px 0px;
+  margin: 0;
+}
+.blog_wrp_main .bannerContent a {
+  background-color: white;
+  padding: 7px 30px;
+  margin-top: auto;
+  height: fit-content;
+  border-radius: 8px;
+  color: black;
+  width: 12%;
+  font-weight: 500;
+  /* margin: auto 0px; */
+  font-size: 18px;
+  text-align: center;
+}
+
+.blog_content {
+  padding: 3rem 0;
+}
+.blog_content .container_fluid {
+  padding: 0 3rem;
+}
+.blog_content .browseByTopic {
+}
+.blog_content .browseByTopic h6 {
+  font-size: 12px;
+  font-weight: 800;
+  color: #314259;
+}
+.blog_content .browseByTopic ul {
+  padding: 0;
+}
+.blog_content .browseByTopic ul li {
+}
+.blog_content .browseByTopic ul li a {
+  font-size: 12px;
+  color: rgb(98, 139, 159);
+  padding: 8px 0px;
+  display: block;
+  font-weight: 400;
+  text-decoration: none;
+  border-bottom: 1px solid rgb(241, 241, 241);
+}
+
+.blog_content .mian_blog_content {
+}
+.blog_content .mian_blog_content .updated_date_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.blog_content .mian_blog_content .updated_date_content p {
+  font-size: 14px;
+  padding-top: 0.5rem;
+  /* padding-bottom: 0.5rem; */
+  font-weight: 500;
+  color: rgb(144 146 163);
+  margin:0;
+}
+
+
+.blog_content .mian_blog_content .social_images {
+  display: flex;
+  gap: 10px;
+}
+.blog_content .mian_blog_content .social_images .imgd{
+  /* border: 1px solid #ff1627; */
+  /* border-radius: 50%; */
+  /* padding: 7px; */
+}
+.blog_content .mian_blog_content .social_images img{
+  width: 15px;
+  height: 15px;
+
+}

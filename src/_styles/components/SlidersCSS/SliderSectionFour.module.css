@@ -1,0 +1,97 @@
+.slideMainWrp{
+    padding: 2rem 0;
+}
+.slideMainWrp .sliderWrp{
+    border-radius: 13px;
+    background: #F2F2F2;
+    height: 100%;
+    /* padding: 20px; */
+}
+.slideMainWrp .sliderWrp .Slidecard{
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 0 0 26px;
+    gap: 30px; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 0 0 26px;
+    gap: 30px;height: 100%;
+    /* min-height: 200px; */
+    /* 
+    max-height: 527px; */
+   
+}
+.slideMainWrp .sliderWrp .Slidecard .card_Img {
+   width:40%;
+   height: 100%;
+}
+.slideMainWrp .sliderWrp .Slidecard .card_Img img {
+    height: 100%;
+    object-fit: cover;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+}
+.slideMainWrp .sliderWrp .Slidecard .card_Text{
+    width:60%;
+    position: relative;
+    padding: 2rem 0;
+}
+
+.slideMainWrp .sliderWrp .Slidecard .card_Text h4{
+    color: #555;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+}
+.slideMainWrp .sliderWrp .Slidecard .card_Text .para{
+    color: #696969;
+/* text-align: justify; */
+font-size: 15px;
+font-style: normal;
+font-weight: 556;
+line-height: normal;
+text-transform: capitalize;
+margin: 2rem 0;
+}
+.slideMainWrp .sliderWrp .Slidecard .card_Text  .author_name{
+    /* position: absolute;
+    bottom: -138px; */
+}
+.slideMainWrp .sliderWrp .Slidecard .card_Text  .author_name h4{
+    color: #555;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.slideMainWrp .sliderWrp .Slidecard .card_Text  .author_name P{
+    color: #DE2123;
+text-align: justify;
+margin: 0;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+  
+}
+
+.slideMainWrp button{
+    color: #FFF;
+    text-align: justify;
+    border-radius: 5px;
+    background: #DE2123;
+    padding: 12px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    border: none;
+}

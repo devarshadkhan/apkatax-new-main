@@ -1,0 +1,339 @@
+.Service_Wrp {
+  position: relative;
+}
+.Service_Wrp .bgImg {
+  position: relative;
+}
+.Service_Wrp .bgImg img {
+  width: 100%;
+  height: 512px;
+  object-fit: cover;
+  filter: blur(4px);
+}
+
+.Service_Wrp .main_modal_box {
+  /* position: absolute;
+    top: 0; */
+
+  width: 500px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+}
+.Service_Wrp .main_modal_box img {
+  width: 100px;
+  /* height: 100px; */
+}
+.Service_Wrp .main_modal_box h3 {
+  color: #4b4b4b;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 10px 0;
+}
+.Service_Wrp .main_modal_box p {
+  color: #898989;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0 0 11px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.Service_Wrp .main_services {
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.Service_Wrp .main_services .btnBnager {
+}
+.Service_Wrp .main_services .btnBnager button:nth-child(1) {
+  color: #fff;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  border-radius: 4px;
+  background: #ff1627;
+  padding: 10px 25px;
+  border: none;
+  margin-right: 15px;
+}
+.Service_Wrp .main_services .btnBnager button:nth-child(2) {
+  color: #ff1627;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  border-radius: 4px;
+  background: transparent;
+  padding: 10px 25px;
+  border: 1px solid #ff1627;
+}
+
+.service_wrp_content {
+  padding: 2rem 0;
+}
+.container {
+  max-width: 1280px;
+}
+.service_wrp_content .shared_Tile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.service_wrp_content .headingContent {
+}
+.service_wrp_content .headingContent h3 {
+  color: #141414;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.service_wrp_content .headingContent p {
+  color: #676767;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: justify;
+  margin-top: 2rem;
+}
+
+
+
+
+
+
+.service_wrp {
+  padding: 3rem 0;
+}
+
+.service_wrp .blogImg {
+}
+.service_wrp .blogImg img {
+  border-radius: 10px;
+}
+
+.service_wrp .blog_readandupdate {
+  margin-top: 10px;
+}
+.service_wrp .blog_readandupdate p {
+  color: #676767;
+  text-align: justify;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.service_wrp .blog_readandupdate p span {
+  color: #d12223;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.blog_content {
+  padding: 2rem 0;
+  position: relative;
+}
+
+.blog_content .container{
+  /* max-width: 1300px;
+  width: 100%; */
+}
+
+.blog_content .contentsec_blog{}
+.blog_content .contentsec_blog h3{
+  font-size: 26px;
+  text-align: center;
+  font-weight: 800;
+  line-height: 22px;
+  margin-bottom: 2rem;
+}
+.blog_content .contentsec_blog p{
+  font-size: 14px;
+    text-align: justify;
+    font-weight: 500;
+}
+
+.blog_content h6 {
+    font-size: 15px;
+    font-weight: 600;
+  }
+.blog_content .social_icon {
+}
+.blog_content .social_icon ul {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  gap: 11px;
+}
+.blog_content .rightPanel{
+  background-color: #f8f9f8;
+    border: none;
+    border-radius: 5px;
+    height: 80vh;
+    list-style-type: none;
+    /* margin: 20px 7px 0 12px; */
+    margin-bottom: 0;
+    /* margin-top: 60px; */
+    /* min-height: 500px; */
+    overflow: auto;
+    padding: 1.5rem;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    /* width: 280px; */
+}
+.blog_content .listItem {
+  margin-top: 1rem;
+  
+}
+.blog_content .listItem ul {
+  padding: 0;
+  margin: 0;
+}
+.blog_content .listItem ul li {
+  margin: 10px 0;
+}
+.blog_content .listItem ul li a {
+  color: #4f4f4f;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.authorDetail {
+  padding: 2rem 0;
+}
+.authorDetail .container {
+  border-radius: 16px;
+  background: #d12223;
+  padding: 2rem 1rem;
+}
+.authorDetail .authorSec {
+  display: flex;
+  gap: 20px;
+}
+.authorDetail .authorSec .authorImg {
+  width: 23%;
+}
+.authorDetail .authorSec .authorImg img {
+  border-radius: 102px;
+  border: 7px solid #fff;
+  width: 102px;
+  height: 102px;
+  object-fit: cover;
+}
+
+.authorDetail .userName {
+  width: 34%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.authorDetail .userName h4 {
+  color: #fff;
+  /* text-align: center; */
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.authorDetail .userName h2 {
+  color: #fff;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.authorDetail p {
+  color: #fff;
+  text-align: justify;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.relatedBlog {
+  padding: 2rem 0;
+}
+
+.relatedBlog .heading {
+  color: #d12223;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 1rem;
+}
+.relatedBlog .blog_one {
+  display: flex;
+  gap: 30px;
+  height: 100%;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0px 1px 40.1px 0px rgba(153, 153, 153, 0.25);
+  margin-bottom: 20px;
+}
+.relatedBlog .blog_one img {
+  width: 149.9px;
+  height: 100%;
+  flex-shrink: 0;
+  border-top-left-radius: 14px;
+  border-bottom-left-radius: 14px;
+  object-fit: cover;
+}
+.relatedBlog .blog_one .blog_con {
+  padding: 1.3rem 1.3rem 1.3rem 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.relatedBlog .blog_one .blog_con h4 {
+  color: #4a4a4a;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.relatedBlog .blog_one .blog_con p {
+  color: #4a4a4a;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.relatedBlog .blog_one a {
+  color: #ff1627;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

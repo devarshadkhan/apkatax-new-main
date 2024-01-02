@@ -1,0 +1,25 @@
+.sliderWrp{}
+/* .sliderWrp .row{align-items: center;} */
+
+.sliderWrp .leftContent{
+    display: flex;
+    align-items: flex-end;
+    gap: 30px;
+    margin: 1rem 0;
+}
+
+.sliderWrp .leftContent img{
+    width: 280px;
+    height: 80px ;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.sliderWrp .leftContent p{
+    color: #484848;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin: 0;
+    
+}

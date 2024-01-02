@@ -1,0 +1,46 @@
+.main_header {
+  padding: 1rem;
+  /* background-color: #ccccccab; */
+  background-color: #f8f8f8;
+}
+.main_header .bag1 {
+  display: flex;
+  justify-content: flex-end;
+  gap: 21px;
+  align-items: center;
+}
+.main_header .bag1 .whatsapp {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.main_header .bag1 .whatsapp img {
+  width: 20px;
+  height: 20px;
+}
+
+.main_header .bag1 .whatsapp span {
+  color: #494949;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.main_header .bag1 .phone {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.main_header .bag1 .phone img {
+  width: 20px;
+  height: 20px;
+}
+
+.main_header .bag1 .phone span {
+  color: #494949;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
